@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: finally
+  description: |
+    A catalog for Scania Cloud which also include link for it.
+  links:
+    - title: Scania Cloud
+      url: https://cloud.scania.com
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
+spec:
+  type: library
+  owner: Saif
+  lifecycle: experimental
